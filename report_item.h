@@ -25,7 +25,7 @@
 
 #define TYPE_MASK                      (0x03U<<TYPE_OFFSET)
 #define TAG_MASK                       ((0x0FU<<TAG_OFFSET)|TYPE_MASK)
-/* size(2bit): 00 - 0B, 01 - 1B, 10 - 2B, 11 - 4B *      /
+/* size(2bit): 00 - 0B, 01 - 1B, 10 - 2B, 11 - 4B */
 #define SIZE_MASK                      (0x03U<<SIZE_OFFSET)
 
 /* Short Item Size
